@@ -1,0 +1,17 @@
+/** @format */
+
+.cardContainer {
+  font-weight: 12px;
+  line-height: 16px;
+  color: #555555;
+}
+
+.cardContainer .eachCardContainer .profileImg {
+  width: 200px;
+  height: 300px;
+}
+
+.profileImg img {
+  width: 200px;
+  height: 200px;
+}
