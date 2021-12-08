@@ -11,8 +11,6 @@ import UpdateProfile from './component/UpdateProfile/UpdateProfile';
 function App() {
   const [profileData, setProfileData] = useState(initialProfileData);
 
-  //   let history = useHistory();
-
   const addProfile = (data) => {
     let tempProfileData = profileData;
     let tempData = data;
@@ -64,7 +62,7 @@ function App() {
                 saveProfile={(props) => saveProfileData(props)}
               />
             </Route>
-            <Route path='/profile'>
+            <Route path='/profile1'>
               <UpdateProfile save={(props) => addProfile(props)} />
             </Route>
           </Switch>
